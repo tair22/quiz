@@ -5,7 +5,7 @@ from logic import quiz_questions, MultipleChoiceQuestion
 
 user_responses = {} 
 points = defaultdict(int)
-current_mc_questions = {}
+
 
 bot = telebot.TeleBot(token)
 
